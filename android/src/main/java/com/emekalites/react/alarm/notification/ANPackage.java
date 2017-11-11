@@ -26,7 +26,7 @@ public class ANPackage implements ReactPackage {
         return modules;
     }
 
-    @Override
+    // deprecated >= RN 0.47.0
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
